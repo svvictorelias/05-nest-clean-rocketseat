@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -19,10 +18,8 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
     },
-    "types": [
-      "vitest/globals"
-    ]
-  }
+    "types": ["vitest/globals"],
+  },
 }
